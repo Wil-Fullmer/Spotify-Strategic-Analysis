@@ -1,11 +1,11 @@
 # TODO
 - test, for testing 
 - Current Date: 2026-04-05
-- Current Time: 14:06
+- Current Time: 14:18
 - Current Timezone: America/Denver
 - Current Actor: codex
-- Current Objective: finalize deterministic agent-sync outputs so repeated merge checks do not create noisy generated-file diffs
-- Next Step: commit the sync stabilization changes, confirm the repo stays clean after a rerun, and then start the Vite/frontend scaffold
-- Blockers: full hook verification still depends on a normal local commit path outside the restricted shell/editor issues seen in this environment
-- Files In Scope: scripts/merge-agents.mjs, agents/generated/, notes/WORKLOG.md, TODO.md
-- Files Out Of Scope: frontend/, backend/, content/, data/, research/, assets/
+- Current Objective: begin actual project build-out now that the collaboration and sync system is validated
+- Next Step: scaffold the Vite frontend, define the first-pass site structure, and start the core project content docs for company context, strategic problem, evidence, and recommendation
+- Blockers: none
+- Files In Scope: frontend/, content/, research/, notes/WORKLOG.md, TODO.md
+- Files Out Of Scope: agents/, .githooks/, scripts/ unless a workflow issue is found

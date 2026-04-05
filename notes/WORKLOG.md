@@ -42,3 +42,15 @@ This file is the historical timeline for the project. Each meaningful work sessi
 - Next Step: commit the deterministic sync cleanup, push if clean, then move into Vite scaffold and actual project build work.
 - Owns Next: scripts/merge-agents.mjs, agents/generated/, notes/WORKLOG.md, TODO.md
 - Do Not Touch: frontend/, backend/, content/, data/, research/, assets/
+
+## 2026-04-05 14:18 America/Denver - codex
+
+- Objective: verify the normal local Git-hook workflow and shift the project baton from infrastructure work to actual site build-out
+- Branch: main
+- Files Changed: TODO.md, notes/WORKLOG.md
+- Summary: confirmed in the user's normal local session that the hook path is active, commit message validation works, and pre-push checks pass during a real commit and push. After verification, updated the TODO baton so the next phase focuses on the Vite scaffold, site structure, and core content docs rather than repo infrastructure.
+- Decisions: the collaboration system is now validated enough to stop prioritizing tooling work, and future effort should move into frontend and content execution unless a workflow bug appears.
+- Open Questions: none
+- Next Step: scaffold the Vite frontend and define the first-pass site structure for the Spotify strategic analysis experience.
+- Owns Next: frontend/, content/, research/, TODO.md, notes/WORKLOG.md
+- Do Not Touch: agents/, .githooks/, scripts/ unless a workflow issue is found
