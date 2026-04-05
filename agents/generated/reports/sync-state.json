@@ -1,130 +1,130 @@
 {
-  "generated_at": "2026-04-05T19:54:46.780Z",
-  "digest": "036c810af2d88e582eb65ed3251b86cd77d15389ecfc52a7807dc8c25eb707cd",
+  "generated_at": "2026-04-05T20:00:10.751Z",
+  "digest": "4183a3f6dabcf0ce481bfa0d86b655bd1b5437f1615efa45e1c6d3998c329bb0",
   "files": [
     {
       "file": "agents\\shared\\schemas\\agent.schema.json",
-      "hash": "9dcaf5ae96f5ecf1ea8df5055eae1c6212c9003d2e1a4ad9f7ea793b7d916638"
+      "hash": "556e66c2e6f2f3ee95374e50f15b27907d8a173f4e6bc2b7abfa417db4e4f97c"
     },
     {
       "file": "agents\\shared\\skills\\company-research.md",
-      "hash": "9d977c44557259c8854ef50463090b51d8af93a867f1166ce6c88fd163f68077"
+      "hash": "f5f277fda2ebc16346f1958d1d1566f5d838bde25f2e419832cf6b0f05def642"
     },
     {
       "file": "agents\\shared\\skills\\competitor-benchmarking.md",
-      "hash": "364068129df30978838b779c8ef3e4dd4a8c6ad575b0cee212d3b4d4cb519be7"
+      "hash": "c38892dd2703729101fdb8c6a7024d0743bf4c10b8e40d043dca7c2a14f76394"
     },
     {
       "file": "agents\\shared\\skills\\financial-analysis.md",
-      "hash": "983436c9e389bf5409d8da970c0bcbd9ff7c773fb9d2a20a8305bab0a5a82e30"
+      "hash": "4d4442beea22ea08e9ad0026f6578e753304e7939a63e81ce73508bc74bfaf34"
     },
     {
       "file": "agents\\shared\\skills\\frontend-storytelling.md",
-      "hash": "9c7ee7486b9619e705ebc59e9bb091c0f15267af4ee13e152bde4b73a8ae4f58"
+      "hash": "5e2e08abee0eaae50de1103f09c3e80b30ec5b703134e89599356b8a0fd4688b"
     },
     {
       "file": "agents\\shared\\skills\\github-update.md",
-      "hash": "22294790eab6eddb8d16bb6f2837835fe7ca17d948c369e5bcfd9ced48b37c38"
+      "hash": "5ab0f95ea53e85a95b31e9bf96c38efc0fdfffb6f8988d0637f46fe39aa560be"
     },
     {
       "file": "agents\\shared\\skills\\industry-analysis.md",
-      "hash": "6f1710183fe11919d9d35c1ddf62f4778eb3c844acd3446d11d3230b316a4b64"
+      "hash": "7dc7df4284e14e144dfdb0b0cd0e07df63f2b3bfe5d5b89b68eb59fb40ebd13f"
     },
     {
       "file": "agents\\shared\\skills\\narrative-structuring.md",
-      "hash": "0e813cb13f147ff5b2c255c22423423f8926a85464125bb9fbfec92c3423c712"
+      "hash": "24e77f8e636a835cd60df3b6a5d03892433f0e810bfca1b1695a98b0dd6aa02e"
     },
     {
       "file": "agents\\shared\\skills\\source-validation.md",
-      "hash": "2d7ffa4d953cbbbd2148d77c353bf5eb5b3e37a3660bf112e3f347f627399361"
+      "hash": "cf1b96c14cfeb5f5827ab89dc695428d065c80cef5884a47bed49b26ffcb5d0c"
     },
     {
       "file": "agents\\shared\\skills\\worklog-update.md",
-      "hash": "e1c34700765ada8c69b2dcc62c4796cd359bde18e7dbd4dd8c286cb677e4b607"
+      "hash": "9f5b57f88e03d0dd3d22effacb1c91559a5978b8a2472b4de5a4f9513ded6bb0"
     },
     {
       "file": "agents\\sources\\claude\\data-analyst.json",
-      "hash": "3927e764e4d35eecd74e8c9c6dc824aa8725f2cf17d22b7683e79b496800e0df"
+      "hash": "9e3560e34ab160245ed6d531e617973f0cffd3214223c398845005083ae7f6d4"
     },
     {
       "file": "agents\\sources\\claude\\financial-analyst.json",
-      "hash": "fed6dd8e2a599eefddd73b0a1192959839d4243f8d547f57bad7c981d38c4744"
+      "hash": "dd70208644a435c5fe6a198cdcb9c76c95bbe2572f4abc9cd07ac5f4163d2ba2"
     },
     {
       "file": "agents\\sources\\claude\\frontend-developer.json",
-      "hash": "a5fcd38211e08861216abb445ed850b27b898c788a3975a7e7abc6bdda787f80"
+      "hash": "65f2df6df567f05e2786daca148aaac0b556e4d9ecfa017ff4e8af54327f7ef1"
     },
     {
       "file": "agents\\sources\\claude\\narrative-editor.json",
-      "hash": "31fe04473f571243edc96f5adc5c7c6aa9f633b5329fe0224707cc81722c9ae5"
+      "hash": "f84a4edca9b8c5b492474a1f29680a4ce37cb4b978fe81c8445223d37f250b82"
     },
     {
       "file": "agents\\sources\\claude\\recommendation-architect.json",
-      "hash": "55e283d8a85f0b385f86ee928e8987d312afb8d571fe135b4895d8fc233fef92"
+      "hash": "01463ed1672dfc39d3fcb94f88788c9b57c714b7a5729ad004fad2c05d4386c0"
     },
     {
       "file": "agents\\sources\\claude\\research-analyst.json",
-      "hash": "224720c7153a6b5ca66675544bf21a44952f7d2d4e6fb7db9eaa89ba1c36703c"
+      "hash": "9ad834e939da05ce4caa4d3e448b981e75fb529a466da6ddef04545bb91d086a"
     },
     {
       "file": "agents\\sources\\claude\\strategy-analyst.json",
-      "hash": "416810eabda21c7f8359ef2b7fdb92b505f654b9bcbb37f3f2c1fdd6aff52b3c"
+      "hash": "92e894827d46fee14527480215e6e7f03cd3a905825ccfe1a7c83d79335dd31a"
     },
     {
       "file": "agents\\sources\\codex\\data-analyst.json",
-      "hash": "3927e764e4d35eecd74e8c9c6dc824aa8725f2cf17d22b7683e79b496800e0df"
+      "hash": "9e3560e34ab160245ed6d531e617973f0cffd3214223c398845005083ae7f6d4"
     },
     {
       "file": "agents\\sources\\codex\\financial-analyst.json",
-      "hash": "fed6dd8e2a599eefddd73b0a1192959839d4243f8d547f57bad7c981d38c4744"
+      "hash": "dd70208644a435c5fe6a198cdcb9c76c95bbe2572f4abc9cd07ac5f4163d2ba2"
     },
     {
       "file": "agents\\sources\\codex\\frontend-developer.json",
-      "hash": "a5fcd38211e08861216abb445ed850b27b898c788a3975a7e7abc6bdda787f80"
+      "hash": "65f2df6df567f05e2786daca148aaac0b556e4d9ecfa017ff4e8af54327f7ef1"
     },
     {
       "file": "agents\\sources\\codex\\narrative-editor.json",
-      "hash": "31fe04473f571243edc96f5adc5c7c6aa9f633b5329fe0224707cc81722c9ae5"
+      "hash": "f84a4edca9b8c5b492474a1f29680a4ce37cb4b978fe81c8445223d37f250b82"
     },
     {
       "file": "agents\\sources\\codex\\recommendation-architect.json",
-      "hash": "55e283d8a85f0b385f86ee928e8987d312afb8d571fe135b4895d8fc233fef92"
+      "hash": "01463ed1672dfc39d3fcb94f88788c9b57c714b7a5729ad004fad2c05d4386c0"
     },
     {
       "file": "agents\\sources\\codex\\research-analyst.json",
-      "hash": "224720c7153a6b5ca66675544bf21a44952f7d2d4e6fb7db9eaa89ba1c36703c"
+      "hash": "9ad834e939da05ce4caa4d3e448b981e75fb529a466da6ddef04545bb91d086a"
     },
     {
       "file": "agents\\sources\\codex\\strategy-analyst.json",
-      "hash": "416810eabda21c7f8359ef2b7fdb92b505f654b9bcbb37f3f2c1fdd6aff52b3c"
+      "hash": "92e894827d46fee14527480215e6e7f03cd3a905825ccfe1a7c83d79335dd31a"
     },
     {
       "file": "agents\\sources\\gemini\\data-analyst.json",
-      "hash": "3927e764e4d35eecd74e8c9c6dc824aa8725f2cf17d22b7683e79b496800e0df"
+      "hash": "9e3560e34ab160245ed6d531e617973f0cffd3214223c398845005083ae7f6d4"
     },
     {
       "file": "agents\\sources\\gemini\\financial-analyst.json",
-      "hash": "fed6dd8e2a599eefddd73b0a1192959839d4243f8d547f57bad7c981d38c4744"
+      "hash": "dd70208644a435c5fe6a198cdcb9c76c95bbe2572f4abc9cd07ac5f4163d2ba2"
     },
     {
       "file": "agents\\sources\\gemini\\frontend-developer.json",
-      "hash": "a5fcd38211e08861216abb445ed850b27b898c788a3975a7e7abc6bdda787f80"
+      "hash": "65f2df6df567f05e2786daca148aaac0b556e4d9ecfa017ff4e8af54327f7ef1"
     },
     {
       "file": "agents\\sources\\gemini\\narrative-editor.json",
-      "hash": "31fe04473f571243edc96f5adc5c7c6aa9f633b5329fe0224707cc81722c9ae5"
+      "hash": "f84a4edca9b8c5b492474a1f29680a4ce37cb4b978fe81c8445223d37f250b82"
     },
     {
       "file": "agents\\sources\\gemini\\recommendation-architect.json",
-      "hash": "55e283d8a85f0b385f86ee928e8987d312afb8d571fe135b4895d8fc233fef92"
+      "hash": "01463ed1672dfc39d3fcb94f88788c9b57c714b7a5729ad004fad2c05d4386c0"
     },
     {
       "file": "agents\\sources\\gemini\\research-analyst.json",
-      "hash": "224720c7153a6b5ca66675544bf21a44952f7d2d4e6fb7db9eaa89ba1c36703c"
+      "hash": "9ad834e939da05ce4caa4d3e448b981e75fb529a466da6ddef04545bb91d086a"
     },
     {
       "file": "agents\\sources\\gemini\\strategy-analyst.json",
-      "hash": "416810eabda21c7f8359ef2b7fdb92b505f654b9bcbb37f3f2c1fdd6aff52b3c"
+      "hash": "92e894827d46fee14527480215e6e7f03cd3a905825ccfe1a7c83d79335dd31a"
     }
   ],
   "normalized_count": 21,
