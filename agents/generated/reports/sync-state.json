@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-04-05T19:54:46.780Z",
+  "digest": "036c810af2d88e582eb65ed3251b86cd77d15389ecfc52a7807dc8c25eb707cd",
+  "files": [
+    {
+      "file": "agents\\shared\\schemas\\agent.schema.json",
+      "hash": "9dcaf5ae96f5ecf1ea8df5055eae1c6212c9003d2e1a4ad9f7ea793b7d916638"
+    },
+    {
+      "file": "agents\\shared\\skills\\company-research.md",
+      "hash": "9d977c44557259c8854ef50463090b51d8af93a867f1166ce6c88fd163f68077"
+    },
+    {
+      "file": "agents\\shared\\skills\\competitor-benchmarking.md",
+      "hash": "364068129df30978838b779c8ef3e4dd4a8c6ad575b0cee212d3b4d4cb519be7"
+    },
+    {
+      "file": "agents\\shared\\skills\\financial-analysis.md",
+      "hash": "983436c9e389bf5409d8da970c0bcbd9ff7c773fb9d2a20a8305bab0a5a82e30"
+    },
+    {
+      "file": "agents\\shared\\skills\\frontend-storytelling.md",
+      "hash": "9c7ee7486b9619e705ebc59e9bb091c0f15267af4ee13e152bde4b73a8ae4f58"
+    },
+    {
+      "file": "agents\\shared\\skills\\github-update.md",
+      "hash": "22294790eab6eddb8d16bb6f2837835fe7ca17d948c369e5bcfd9ced48b37c38"
+    },
+    {
+      "file": "agents\\shared\\skills\\industry-analysis.md",
+      "hash": "6f1710183fe11919d9d35c1ddf62f4778eb3c844acd3446d11d3230b316a4b64"
+    },
+    {
+      "file": "agents\\shared\\skills\\narrative-structuring.md",
+      "hash": "0e813cb13f147ff5b2c255c22423423f8926a85464125bb9fbfec92c3423c712"
+    },
+    {
+      "file": "agents\\shared\\skills\\source-validation.md",
+      "hash": "2d7ffa4d953cbbbd2148d77c353bf5eb5b3e37a3660bf112e3f347f627399361"
+    },
+    {
+      "file": "agents\\shared\\skills\\worklog-update.md",
+      "hash": "e1c34700765ada8c69b2dcc62c4796cd359bde18e7dbd4dd8c286cb677e4b607"
+    },
+    {
+      "file": "agents\\sources\\claude\\data-analyst.json",
+      "hash": "3927e764e4d35eecd74e8c9c6dc824aa8725f2cf17d22b7683e79b496800e0df"
+    },
+    {
+      "file": "agents\\sources\\claude\\financial-analyst.json",
+      "hash": "fed6dd8e2a599eefddd73b0a1192959839d4243f8d547f57bad7c981d38c4744"
+    },
+    {
+      "file": "agents\\sources\\claude\\frontend-developer.json",
+      "hash": "a5fcd38211e08861216abb445ed850b27b898c788a3975a7e7abc6bdda787f80"
+    },
+    {
+      "file": "agents\\sources\\claude\\narrative-editor.json",
+      "hash": "31fe04473f571243edc96f5adc5c7c6aa9f633b5329fe0224707cc81722c9ae5"
+    },
+    {
+      "file": "agents\\sources\\claude\\recommendation-architect.json",
+      "hash": "55e283d8a85f0b385f86ee928e8987d312afb8d571fe135b4895d8fc233fef92"
+    },
+    {
+      "file": "agents\\sources\\claude\\research-analyst.json",
+      "hash": "224720c7153a6b5ca66675544bf21a44952f7d2d4e6fb7db9eaa89ba1c36703c"
+    },
+    {
+      "file": "agents\\sources\\claude\\strategy-analyst.json",
+      "hash": "416810eabda21c7f8359ef2b7fdb92b505f654b9bcbb37f3f2c1fdd6aff52b3c"
+    },
+    {
+      "file": "agents\\sources\\codex\\data-analyst.json",
+      "hash": "3927e764e4d35eecd74e8c9c6dc824aa8725f2cf17d22b7683e79b496800e0df"
+    },
+    {
+      "file": "agents\\sources\\codex\\financial-analyst.json",
+      "hash": "fed6dd8e2a599eefddd73b0a1192959839d4243f8d547f57bad7c981d38c4744"
+    },
+    {
+      "file": "agents\\sources\\codex\\frontend-developer.json",
+      "hash": "a5fcd38211e08861216abb445ed850b27b898c788a3975a7e7abc6bdda787f80"
+    },
+    {
+      "file": "agents\\sources\\codex\\narrative-editor.json",
+      "hash": "31fe04473f571243edc96f5adc5c7c6aa9f633b5329fe0224707cc81722c9ae5"
+    },
+    {
+      "file": "agents\\sources\\codex\\recommendation-architect.json",
+      "hash": "55e283d8a85f0b385f86ee928e8987d312afb8d571fe135b4895d8fc233fef92"
+    },
+    {
+      "file": "agents\\sources\\codex\\research-analyst.json",
+      "hash": "224720c7153a6b5ca66675544bf21a44952f7d2d4e6fb7db9eaa89ba1c36703c"
+    },
+    {
+      "file": "agents\\sources\\codex\\strategy-analyst.json",
+      "hash": "416810eabda21c7f8359ef2b7fdb92b505f654b9bcbb37f3f2c1fdd6aff52b3c"
+    },
+    {
+      "file": "agents\\sources\\gemini\\data-analyst.json",
+      "hash": "3927e764e4d35eecd74e8c9c6dc824aa8725f2cf17d22b7683e79b496800e0df"
+    },
+    {
+      "file": "agents\\sources\\gemini\\financial-analyst.json",
+      "hash": "fed6dd8e2a599eefddd73b0a1192959839d4243f8d547f57bad7c981d38c4744"
+    },
+    {
+      "file": "agents\\sources\\gemini\\frontend-developer.json",
+      "hash": "a5fcd38211e08861216abb445ed850b27b898c788a3975a7e7abc6bdda787f80"
+    },
+    {
+      "file": "agents\\sources\\gemini\\narrative-editor.json",
+      "hash": "31fe04473f571243edc96f5adc5c7c6aa9f633b5329fe0224707cc81722c9ae5"
+    },
+    {
+      "file": "agents\\sources\\gemini\\recommendation-architect.json",
+      "hash": "55e283d8a85f0b385f86ee928e8987d312afb8d571fe135b4895d8fc233fef92"
+    },
+    {
+      "file": "agents\\sources\\gemini\\research-analyst.json",
+      "hash": "224720c7153a6b5ca66675544bf21a44952f7d2d4e6fb7db9eaa89ba1c36703c"
+    },
+    {
+      "file": "agents\\sources\\gemini\\strategy-analyst.json",
+      "hash": "416810eabda21c7f8359ef2b7fdb92b505f654b9bcbb37f3f2c1fdd6aff52b3c"
+    }
+  ],
+  "normalized_count": 21,
+  "merged_count": 7
+}

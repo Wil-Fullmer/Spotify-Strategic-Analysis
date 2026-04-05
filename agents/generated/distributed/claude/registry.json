@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-04-05T19:54:46.765Z",
+  "assistant": "claude",
+  "count": 7,
+  "agents": [
+    {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "status": "active",
+      "tags": [
+        "data",
+        "analysis",
+        "charts",
+        "evidence"
+      ]
+    },
+    {
+      "id": "financial-analyst",
+      "name": "Financial Analyst",
+      "status": "active",
+      "tags": [
+        "finance",
+        "metrics",
+        "strategy",
+        "benchmarking"
+      ]
+    },
+    {
+      "id": "frontend-developer",
+      "name": "Frontend Developer",
+      "status": "active",
+      "tags": [
+        "frontend",
+        "vite",
+        "ui",
+        "strategy-site"
+      ]
+    },
+    {
+      "id": "narrative-editor",
+      "name": "Narrative Editor",
+      "status": "active",
+      "tags": [
+        "editing",
+        "narrative",
+        "clarity",
+        "presentation"
+      ]
+    },
+    {
+      "id": "recommendation-architect",
+      "name": "Recommendation Architect",
+      "status": "active",
+      "tags": [
+        "recommendation",
+        "implementation",
+        "strategy",
+        "roadmap"
+      ]
+    },
+    {
+      "id": "research-analyst",
+      "name": "Research Analyst",
+      "status": "active",
+      "tags": [
+        "research",
+        "strategy",
+        "evidence",
+        "market-analysis"
+      ]
+    },
+    {
+      "id": "strategy-analyst",
+      "name": "Strategy Analyst",
+      "status": "active",
+      "tags": [
+        "strategy",
+        "problem-framing",
+        "analysis",
+        "recommendation-support"
+      ]
+    }
+  ]
+}

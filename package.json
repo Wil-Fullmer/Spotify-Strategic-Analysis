@@ -1,0 +1,12 @@
+{
+  "name": "spotify-strat-analysis",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare": "node scripts/install-git-hooks.mjs",
+    "agents:merge": "node scripts/merge-agents.mjs",
+    "agents:watch": "node scripts/watch-agents.mjs",
+    "agents:worklog": "node scripts/update-worklog.mjs"
+  }
+}
