@@ -57,8 +57,8 @@ Top-level folders:
 
 Important project-state files:
 
-- [`TODO.md`](C:\Users\Kak Vlek\projects\Spotify Strat Analysis\TODO.md): the current baton, next step, and active scope
-- [`notes/WORKLOG.md`](C:\Users\Kak Vlek\projects\Spotify Strat Analysis\notes\WORKLOG.md): the historical timeline of work sessions and handoffs
+- `TODO.md`: the current baton, next step, and active scope
+- `notes/WORKLOG.md`: the historical timeline of work sessions and handoffs
 
 ## AI Assistant System
 
@@ -240,4 +240,10 @@ If you are new to the repo, do this first:
 
 If you are using an AI assistant, make sure it follows the shared skills and respects the worklog and TODO system.
 
+## Current Next Step
 
+The next major task is to verify the full Git-hook workflow with a normal local commit, then move into actual project build-out:
+
+- confirm hook execution on the local machine without environment restrictions
+- begin the Vite/frontend scaffold
+- start company-specific research and content planning
