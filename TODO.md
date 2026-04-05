@@ -1,11 +1,11 @@
 # TODO
 
 - Current Date: 2026-04-05
-- Current Time: 13:54
+- Current Time: 14:06
 - Current Timezone: America/Denver
 - Current Actor: codex
-- Current Objective: finalize and commit the project foundation so the shared repo has a clean baseline
-- Next Step: make the first commit for the repository foundation, verify the hook-driven workflow, and then move into Vite/frontend and content scaffold planning
-- Blockers: Node-to-Git subprocess verification was restricted in this environment, so full hook behavior still needs live commit validation
-- Files In Scope: README.md, TODO.md, .githooks/, agents/, notes/WORKLOG.md, package.json, scripts/
+- Current Objective: finalize deterministic agent-sync outputs so repeated merge checks do not create noisy generated-file diffs
+- Next Step: commit the sync stabilization changes, confirm the repo stays clean after a rerun, and then start the Vite/frontend scaffold
+- Blockers: full hook verification still depends on a normal local commit path outside the restricted shell/editor issues seen in this environment
+- Files In Scope: scripts/merge-agents.mjs, agents/generated/, notes/WORKLOG.md, TODO.md
 - Files Out Of Scope: frontend/, backend/, content/, data/, research/, assets/

@@ -14,16 +14,16 @@
     "source-validation"
   ],
   "tags": [
-    "research",
-    "strategy",
     "evidence",
-    "market-analysis"
+    "market-analysis",
+    "research",
+    "strategy"
   ],
   "capabilities": [
-    "source-discovery",
+    "competitor-scanning",
     "evidence-synthesis",
     "industry-research",
-    "competitor-scanning"
+    "source-discovery"
   ],
   "inputs": [
     "company name",
@@ -31,8 +31,8 @@
     "source set"
   ],
   "outputs": [
-    "research summaries",
     "evidence notes",
+    "research summaries",
     "source lists"
   ],
   "extends": [],
@@ -40,15 +40,15 @@
     "contributors": [
       {
         "source": "claude",
-        "file": "agents\\sources\\claude\\research-analyst.json"
+        "file": "agents/sources/claude/research-analyst.json"
       },
       {
         "source": "codex",
-        "file": "agents\\sources\\codex\\research-analyst.json"
+        "file": "agents/sources/codex/research-analyst.json"
       },
       {
         "source": "gemini",
-        "file": "agents\\sources\\gemini\\research-analyst.json"
+        "file": "agents/sources/gemini/research-analyst.json"
       }
     ],
     "distributed_for": "claude"

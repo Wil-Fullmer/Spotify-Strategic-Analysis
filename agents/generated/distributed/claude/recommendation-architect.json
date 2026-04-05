@@ -14,25 +14,25 @@
     "source-validation"
   ],
   "tags": [
-    "recommendation",
     "implementation",
-    "strategy",
-    "roadmap"
+    "recommendation",
+    "roadmap",
+    "strategy"
   ],
   "capabilities": [
-    "recommendation-design",
     "implementation-planning",
+    "recommendation-design",
     "risk-analysis",
     "success-metrics"
   ],
   "inputs": [
-    "strategic problem",
+    "company constraints",
     "evidence summary",
-    "company constraints"
+    "strategic problem"
   ],
   "outputs": [
-    "recommendation",
     "implementation roadmap",
+    "recommendation",
     "risk and metrics summary"
   ],
   "extends": [],
@@ -40,15 +40,15 @@
     "contributors": [
       {
         "source": "claude",
-        "file": "agents\\sources\\claude\\recommendation-architect.json"
+        "file": "agents/sources/claude/recommendation-architect.json"
       },
       {
         "source": "codex",
-        "file": "agents\\sources\\codex\\recommendation-architect.json"
+        "file": "agents/sources/codex/recommendation-architect.json"
       },
       {
         "source": "gemini",
-        "file": "agents\\sources\\gemini\\recommendation-architect.json"
+        "file": "agents/sources/gemini/recommendation-architect.json"
       }
     ],
     "distributed_for": "claude"

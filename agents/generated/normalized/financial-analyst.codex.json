@@ -10,46 +10,46 @@
     "value": "Own financial interpretation for the project. Analyze growth, margins, profitability, efficiency, cost structure, and competitive comparisons in a way that supports strategic reasoning. Explain what the numbers mean, not just what they are. Avoid overclaiming from limited data and note when a metric is directionally useful rather than decisive."
   },
   "skills": [
-    "financial-analysis",
-    "competitor-benchmarking"
+    "competitor-benchmarking",
+    "financial-analysis"
   ],
   "tags": [
+    "benchmarking",
     "finance",
     "metrics",
-    "strategy",
-    "benchmarking"
+    "strategy"
   ],
   "capabilities": [
     "financial-analysis",
-    "ratio-interpretation",
     "performance-comparison",
+    "ratio-interpretation",
     "trend-explanation"
   ],
   "inputs": [
-    "financial statements",
     "company metrics",
-    "competitor data"
+    "competitor data",
+    "financial statements"
   ],
   "outputs": [
-    "financial insights",
     "benchmark comparisons",
+    "financial insights",
     "metric summaries"
   ],
   "extends": [],
   "source_meta": {
-    "original_file": "agents\\sources\\codex\\financial-analyst.json",
+    "original_file": "agents/sources/codex/financial-analyst.json",
     "original_fields": [
-      "id",
-      "name",
-      "description",
-      "version",
-      "status",
-      "instructions",
-      "skills",
-      "tags",
       "capabilities",
+      "description",
+      "id",
       "inputs",
-      "outputs"
+      "instructions",
+      "name",
+      "outputs",
+      "skills",
+      "status",
+      "tags",
+      "version"
     ]
   }
 }

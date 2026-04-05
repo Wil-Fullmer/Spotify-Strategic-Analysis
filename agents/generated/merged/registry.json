@@ -1,5 +1,4 @@
 {
-  "generated_at": "2026-04-05T20:00:10.725Z",
   "count": 7,
   "agents": [
     {
@@ -8,9 +7,9 @@
       "source": "merged",
       "status": "active",
       "tags": [
-        "data",
         "analysis",
         "charts",
+        "data",
         "evidence"
       ]
     },
@@ -20,10 +19,10 @@
       "source": "merged",
       "status": "active",
       "tags": [
+        "benchmarking",
         "finance",
         "metrics",
-        "strategy",
-        "benchmarking"
+        "strategy"
       ]
     },
     {
@@ -33,9 +32,9 @@
       "status": "active",
       "tags": [
         "frontend",
-        "vite",
+        "strategy-site",
         "ui",
-        "strategy-site"
+        "vite"
       ]
     },
     {
@@ -44,9 +43,9 @@
       "source": "merged",
       "status": "active",
       "tags": [
+        "clarity",
         "editing",
         "narrative",
-        "clarity",
         "presentation"
       ]
     },
@@ -56,10 +55,10 @@
       "source": "merged",
       "status": "active",
       "tags": [
-        "recommendation",
         "implementation",
-        "strategy",
-        "roadmap"
+        "recommendation",
+        "roadmap",
+        "strategy"
       ]
     },
     {
@@ -68,10 +67,10 @@
       "source": "merged",
       "status": "active",
       "tags": [
-        "research",
-        "strategy",
         "evidence",
-        "market-analysis"
+        "market-analysis",
+        "research",
+        "strategy"
       ]
     },
     {
@@ -80,10 +79,10 @@
       "source": "merged",
       "status": "active",
       "tags": [
-        "strategy",
-        "problem-framing",
         "analysis",
-        "recommendation-support"
+        "problem-framing",
+        "recommendation-support",
+        "strategy"
       ]
     }
   ]

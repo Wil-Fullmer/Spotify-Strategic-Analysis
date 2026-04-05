@@ -30,3 +30,15 @@ This file is the historical timeline for the project. Each meaningful work sessi
 - Next Step: make the first foundation commit, verify generated agent outputs once more, and then begin scaffolding the actual project build work.
 - Owns Next: README.md, TODO.md, .githooks/, agents/, notes/WORKLOG.md, package.json, scripts/
 - Do Not Touch: frontend/, backend/, content/, data/, research/, assets/
+
+## 2026-04-05 14:06 America/Denver - codex
+
+- Objective: remove deterministic-output risk from the agent sync pipeline so repeated merge checks do not create timestamp-only churn
+- Branch: main
+- Files Changed: scripts/merge-agents.mjs, agents/generated/, notes/WORKLOG.md, TODO.md
+- Summary: removed committed timestamps from generated registry and report files, normalized hash inputs across line endings, sorted emitted arrays and contributor/file paths consistently, and reran the merge so generated outputs match the new stable format.
+- Decisions: generated artifacts should only change when source or shared agent inputs change meaningfully, and generated file ordering should be explicit rather than incidental.
+- Open Questions: verify one more normal local commit later in an unrestricted environment to confirm the hook path behaves cleanly without `--no-verify`.
+- Next Step: commit the deterministic sync cleanup, push if clean, then move into Vite scaffold and actual project build work.
+- Owns Next: scripts/merge-agents.mjs, agents/generated/, notes/WORKLOG.md, TODO.md
+- Do Not Touch: frontend/, backend/, content/, data/, research/, assets/

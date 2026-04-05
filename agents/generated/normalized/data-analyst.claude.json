@@ -14,42 +14,42 @@
     "source-validation"
   ],
   "tags": [
-    "data",
     "analysis",
     "charts",
+    "data",
     "evidence"
   ],
   "capabilities": [
+    "chart-preparation",
     "data-cleaning",
-    "trend-analysis",
     "dataset-structuring",
-    "chart-preparation"
+    "trend-analysis"
   ],
   "inputs": [
-    "raw datasets",
     "csv files",
+    "raw datasets",
     "research tables"
   ],
   "outputs": [
-    "cleaned datasets",
     "chart-ready json",
+    "cleaned datasets",
     "trend summaries"
   ],
   "extends": [],
   "source_meta": {
-    "original_file": "agents\\sources\\claude\\data-analyst.json",
+    "original_file": "agents/sources/claude/data-analyst.json",
     "original_fields": [
-      "id",
-      "name",
-      "description",
-      "version",
-      "status",
-      "instructions",
-      "skills",
-      "tags",
       "capabilities",
+      "description",
+      "id",
       "inputs",
-      "outputs"
+      "instructions",
+      "name",
+      "outputs",
+      "skills",
+      "status",
+      "tags",
+      "version"
     ]
   }
 }

@@ -15,15 +15,15 @@
   ],
   "tags": [
     "frontend",
-    "vite",
+    "strategy-site",
     "ui",
-    "strategy-site"
+    "vite"
   ],
   "capabilities": [
     "component-design",
+    "interaction-design",
     "responsive-layout",
-    "styling",
-    "interaction-design"
+    "styling"
   ],
   "inputs": [
     "section content",
@@ -31,25 +31,25 @@
     "visual direction"
   ],
   "outputs": [
-    "ui components",
+    "interactive views",
     "page sections",
-    "interactive views"
+    "ui components"
   ],
   "extends": [],
   "source_meta": {
-    "original_file": "agents\\sources\\claude\\frontend-developer.json",
+    "original_file": "agents/sources/claude/frontend-developer.json",
     "original_fields": [
-      "id",
-      "name",
-      "description",
-      "version",
-      "status",
-      "instructions",
-      "skills",
-      "tags",
       "capabilities",
+      "description",
+      "id",
       "inputs",
-      "outputs"
+      "instructions",
+      "name",
+      "outputs",
+      "skills",
+      "status",
+      "tags",
+      "version"
     ]
   }
 }

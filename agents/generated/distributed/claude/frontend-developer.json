@@ -15,15 +15,15 @@
   ],
   "tags": [
     "frontend",
-    "vite",
+    "strategy-site",
     "ui",
-    "strategy-site"
+    "vite"
   ],
   "capabilities": [
     "component-design",
+    "interaction-design",
     "responsive-layout",
-    "styling",
-    "interaction-design"
+    "styling"
   ],
   "inputs": [
     "section content",
@@ -31,24 +31,24 @@
     "visual direction"
   ],
   "outputs": [
-    "ui components",
+    "interactive views",
     "page sections",
-    "interactive views"
+    "ui components"
   ],
   "extends": [],
   "source_meta": {
     "contributors": [
       {
         "source": "claude",
-        "file": "agents\\sources\\claude\\frontend-developer.json"
+        "file": "agents/sources/claude/frontend-developer.json"
       },
       {
         "source": "codex",
-        "file": "agents\\sources\\codex\\frontend-developer.json"
+        "file": "agents/sources/codex/frontend-developer.json"
       },
       {
         "source": "gemini",
-        "file": "agents\\sources\\gemini\\frontend-developer.json"
+        "file": "agents/sources/gemini/frontend-developer.json"
       }
     ],
     "distributed_for": "claude"

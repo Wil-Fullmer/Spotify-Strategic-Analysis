@@ -14,16 +14,16 @@
     "source-validation"
   ],
   "tags": [
-    "research",
-    "strategy",
     "evidence",
-    "market-analysis"
+    "market-analysis",
+    "research",
+    "strategy"
   ],
   "capabilities": [
-    "source-discovery",
+    "competitor-scanning",
     "evidence-synthesis",
     "industry-research",
-    "competitor-scanning"
+    "source-discovery"
   ],
   "inputs": [
     "company name",
@@ -31,25 +31,25 @@
     "source set"
   ],
   "outputs": [
-    "research summaries",
     "evidence notes",
+    "research summaries",
     "source lists"
   ],
   "extends": [],
   "source_meta": {
-    "original_file": "agents\\sources\\gemini\\research-analyst.json",
+    "original_file": "agents/sources/gemini/research-analyst.json",
     "original_fields": [
-      "id",
-      "name",
-      "description",
-      "version",
-      "status",
-      "instructions",
-      "skills",
-      "tags",
       "capabilities",
+      "description",
+      "id",
       "inputs",
-      "outputs"
+      "instructions",
+      "name",
+      "outputs",
+      "skills",
+      "status",
+      "tags",
+      "version"
     ]
   }
 }

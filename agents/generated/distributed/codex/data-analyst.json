@@ -14,25 +14,25 @@
     "source-validation"
   ],
   "tags": [
-    "data",
     "analysis",
     "charts",
+    "data",
     "evidence"
   ],
   "capabilities": [
+    "chart-preparation",
     "data-cleaning",
-    "trend-analysis",
     "dataset-structuring",
-    "chart-preparation"
+    "trend-analysis"
   ],
   "inputs": [
-    "raw datasets",
     "csv files",
+    "raw datasets",
     "research tables"
   ],
   "outputs": [
-    "cleaned datasets",
     "chart-ready json",
+    "cleaned datasets",
     "trend summaries"
   ],
   "extends": [],
@@ -40,15 +40,15 @@
     "contributors": [
       {
         "source": "claude",
-        "file": "agents\\sources\\claude\\data-analyst.json"
+        "file": "agents/sources/claude/data-analyst.json"
       },
       {
         "source": "codex",
-        "file": "agents\\sources\\codex\\data-analyst.json"
+        "file": "agents/sources/codex/data-analyst.json"
       },
       {
         "source": "gemini",
-        "file": "agents\\sources\\gemini\\data-analyst.json"
+        "file": "agents/sources/gemini/data-analyst.json"
       }
     ],
     "distributed_for": "codex"

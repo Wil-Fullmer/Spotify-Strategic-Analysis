@@ -1,5 +1,4 @@
 {
-  "generated_at": "2026-04-05T20:00:10.749Z",
   "assistant": "gemini",
   "count": 7,
   "agents": [
@@ -8,9 +7,9 @@
       "name": "Data Analyst",
       "status": "active",
       "tags": [
-        "data",
         "analysis",
         "charts",
+        "data",
         "evidence"
       ]
     },
@@ -19,10 +18,10 @@
       "name": "Financial Analyst",
       "status": "active",
       "tags": [
+        "benchmarking",
         "finance",
         "metrics",
-        "strategy",
-        "benchmarking"
+        "strategy"
       ]
     },
     {
@@ -31,9 +30,9 @@
       "status": "active",
       "tags": [
         "frontend",
-        "vite",
+        "strategy-site",
         "ui",
-        "strategy-site"
+        "vite"
       ]
     },
     {
@@ -41,9 +40,9 @@
       "name": "Narrative Editor",
       "status": "active",
       "tags": [
+        "clarity",
         "editing",
         "narrative",
-        "clarity",
         "presentation"
       ]
     },
@@ -52,10 +51,10 @@
       "name": "Recommendation Architect",
       "status": "active",
       "tags": [
-        "recommendation",
         "implementation",
-        "strategy",
-        "roadmap"
+        "recommendation",
+        "roadmap",
+        "strategy"
       ]
     },
     {
@@ -63,10 +62,10 @@
       "name": "Research Analyst",
       "status": "active",
       "tags": [
-        "research",
-        "strategy",
         "evidence",
-        "market-analysis"
+        "market-analysis",
+        "research",
+        "strategy"
       ]
     },
     {
@@ -74,10 +73,10 @@
       "name": "Strategy Analyst",
       "status": "active",
       "tags": [
-        "strategy",
-        "problem-framing",
         "analysis",
-        "recommendation-support"
+        "problem-framing",
+        "recommendation-support",
+        "strategy"
       ]
     }
   ]

@@ -40,6 +40,18 @@ function createHash(value) {
   return crypto.createHash("sha256").update(value).digest("hex");
 }
 
+function normalizeTextForHash(value) {
+  return value.replace(/\r\n/g, "\n");
+}
+
+function normalizePathForOutput(filePath) {
+  return filePath.split(path.sep).join("/");
+}
+
+function sortStrings(values = []) {
+  return [...new Set(values)].sort((a, b) => a.localeCompare(b));
+}
+
 function normalizeAgent(raw, source, filePath) {
   const id = raw.id ?? raw.slug ?? raw.agent_id;
   const name = raw.name ?? raw.title ?? id;
@@ -77,28 +89,29 @@ function normalizeAgent(raw, source, filePath) {
     version,
     status,
     instructions,
-    skills,
-    tags,
-    capabilities,
-    inputs,
-    outputs,
-    extends: extendsList,
+    skills: sortStrings(skills),
+    tags: sortStrings(tags),
+    capabilities: sortStrings(capabilities),
+    inputs: sortStrings(inputs),
+    outputs: sortStrings(outputs),
+    extends: sortStrings(extendsList),
     source_meta: isObject(raw.source_meta)
       ? raw.source_meta
       : {
-          original_file: path.relative(ROOT, filePath),
-          original_fields: Object.keys(raw)
+          original_file: normalizePathForOutput(path.relative(ROOT, filePath)),
+          original_fields: sortStrings(Object.keys(raw))
         }
   };
 }
 
 function mergeAgents(agentGroup) {
-  const [first, ...rest] = agentGroup;
+  const orderedGroup = [...agentGroup].sort((a, b) => a.source.localeCompare(b.source));
+  const [first, ...rest] = orderedGroup;
   const merged = {
     ...first,
     source: "merged",
     source_meta: {
-      contributors: agentGroup.map((agent) => ({
+      contributors: orderedGroup.map((agent) => ({
         source: agent.source,
         file: agent.source_meta?.original_file ?? null
       }))
@@ -120,7 +133,7 @@ function mergeAgents(agentGroup) {
     }
 
     for (const key of ["skills", "tags", "capabilities", "inputs", "outputs", "extends"]) {
-      merged[key] = [...new Set([...(merged[key] ?? []), ...(agent[key] ?? [])])];
+      merged[key] = sortStrings([...(merged[key] ?? []), ...(agent[key] ?? [])]);
     }
 
     if (
@@ -185,9 +198,9 @@ async function collectInputState() {
 
   const entries = [];
   for (const filePath of files.sort()) {
-    const raw = await fs.readFile(filePath);
+    const raw = normalizeTextForHash(await fs.readFile(filePath, "utf8"));
     entries.push({
-      file: path.relative(ROOT, filePath),
+      file: normalizePathForOutput(path.relative(ROOT, filePath)),
       hash: createHash(raw)
     });
   }
@@ -211,11 +224,13 @@ async function readState() {
 }
 
 async function writeDistributedOutputs(mergedAgents) {
+  const orderedAgents = [...mergedAgents].sort((a, b) => a.id.localeCompare(b.id));
+
   for (const assistant of ASSISTANTS) {
     const assistantDir = path.join(DISTRIBUTED_DIR, assistant);
     await ensureDir(assistantDir);
 
-    for (const agent of mergedAgents) {
+    for (const agent of orderedAgents) {
       const payload = {
         ...agent,
         source_meta: {
@@ -228,10 +243,9 @@ async function writeDistributedOutputs(mergedAgents) {
     }
 
     await writeJson(path.join(assistantDir, "registry.json"), {
-      generated_at: new Date().toISOString(),
       assistant,
-      count: mergedAgents.length,
-      agents: mergedAgents.map((agent) => ({
+      count: orderedAgents.length,
+      agents: orderedAgents.map((agent) => ({
         id: agent.id,
         name: agent.name,
         status: agent.status,
@@ -299,8 +313,9 @@ async function main() {
     await writeJson(path.join(MERGED_DIR, `${merged.id}.json`), merged);
   }
 
+  mergedAgents.sort((a, b) => a.id.localeCompare(b.id));
+
   await writeJson(path.join(MERGED_DIR, "registry.json"), {
-    generated_at: new Date().toISOString(),
     count: mergedAgents.length,
     agents: mergedAgents.map((agent) => ({
       id: agent.id,
@@ -314,15 +329,17 @@ async function main() {
   await writeDistributedOutputs(mergedAgents);
 
   await writeJson(path.join(REPORTS_DIR, "merge-report.json"), {
-    generated_at: new Date().toISOString(),
     normalized_count: normalizedAgents.length,
     merged_count: mergedAgents.length,
     skipped,
-    conflicts
+    conflicts: [...conflicts].sort((a, b) => {
+      const left = `${a.id}:${a.field}:${JSON.stringify(a.sources)}`;
+      const right = `${b.id}:${b.field}:${JSON.stringify(b.sources)}`;
+      return left.localeCompare(right);
+    })
   });
 
   await writeJson(STATE_FILE, {
-    generated_at: new Date().toISOString(),
     digest: inputState.digest,
     files: inputState.files,
     normalized_count: normalizedAgents.length,

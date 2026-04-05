@@ -10,46 +10,46 @@
     "value": "Own the strategic reasoning layer of the project. Identify the central problem, explain what is driving it, and connect research, industry forces, internal constraints, and financial evidence into a coherent argument. Keep the scope tight and do not let the project drift into multiple unrelated problems."
   },
   "skills": [
-    "industry-analysis",
     "competitor-benchmarking",
+    "industry-analysis",
     "narrative-structuring"
   ],
   "tags": [
-    "strategy",
-    "problem-framing",
     "analysis",
-    "recommendation-support"
+    "problem-framing",
+    "recommendation-support",
+    "strategy"
   ],
   "capabilities": [
-    "problem-definition",
-    "strategic-synthesis",
+    "evidence-linking",
     "framework-translation",
-    "evidence-linking"
+    "problem-definition",
+    "strategic-synthesis"
   ],
   "inputs": [
-    "research summaries",
     "financial evidence",
-    "industry context"
+    "industry context",
+    "research summaries"
   ],
   "outputs": [
+    "driver summaries",
     "problem statement",
-    "strategic analysis",
-    "driver summaries"
+    "strategic analysis"
   ],
   "extends": [],
   "source_meta": {
     "contributors": [
       {
         "source": "claude",
-        "file": "agents\\sources\\claude\\strategy-analyst.json"
+        "file": "agents/sources/claude/strategy-analyst.json"
       },
       {
         "source": "codex",
-        "file": "agents\\sources\\codex\\strategy-analyst.json"
+        "file": "agents/sources/codex/strategy-analyst.json"
       },
       {
         "source": "gemini",
-        "file": "agents\\sources\\gemini\\strategy-analyst.json"
+        "file": "agents/sources/gemini/strategy-analyst.json"
       }
     ],
     "distributed_for": "gemini"

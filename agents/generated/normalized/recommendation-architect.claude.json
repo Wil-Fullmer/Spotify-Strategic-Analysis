@@ -14,42 +14,42 @@
     "source-validation"
   ],
   "tags": [
-    "recommendation",
     "implementation",
-    "strategy",
-    "roadmap"
+    "recommendation",
+    "roadmap",
+    "strategy"
   ],
   "capabilities": [
-    "recommendation-design",
     "implementation-planning",
+    "recommendation-design",
     "risk-analysis",
     "success-metrics"
   ],
   "inputs": [
-    "strategic problem",
+    "company constraints",
     "evidence summary",
-    "company constraints"
+    "strategic problem"
   ],
   "outputs": [
-    "recommendation",
     "implementation roadmap",
+    "recommendation",
     "risk and metrics summary"
   ],
   "extends": [],
   "source_meta": {
-    "original_file": "agents\\sources\\claude\\recommendation-architect.json",
+    "original_file": "agents/sources/claude/recommendation-architect.json",
     "original_fields": [
-      "id",
-      "name",
-      "description",
-      "version",
-      "status",
-      "instructions",
-      "skills",
-      "tags",
       "capabilities",
+      "description",
+      "id",
       "inputs",
-      "outputs"
+      "instructions",
+      "name",
+      "outputs",
+      "skills",
+      "status",
+      "tags",
+      "version"
     ]
   }
 }
