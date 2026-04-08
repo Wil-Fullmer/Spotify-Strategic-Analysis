@@ -7,6 +7,8 @@
     "prepare": "node scripts/install-git-hooks.mjs",
     "agents:merge": "node scripts/merge-agents.mjs",
     "agents:watch": "node scripts/watch-agents.mjs",
-    "agents:worklog": "node scripts/update-worklog.mjs"
+    "agents:worklog": "node scripts/update-worklog.mjs",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
   }
 }
