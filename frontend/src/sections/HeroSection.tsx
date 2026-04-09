@@ -80,7 +80,7 @@ export default function HeroSection() {
         </svg>
       </div>
 
-      <div className="act-badge" style={{ marginBottom: 24 }}>Strategic Analysis · FY 2025</div>
+      <div className="act-badge" style={{ marginBottom: 24 }}>Strategic Analysis</div>
 
       <h1 style={{
         fontSize:      'clamp(3rem, 8vw, 6.5rem)',
@@ -109,8 +109,9 @@ export default function HeroSection() {
         lineHeight: 1.6,
         margin:     '0 0 56px',
       }}>
-        How Spotify turned 20 years of growth-at-all-costs into a durable,
-        margin-expanding business — and what comes next.
+        Spotify has built one of the largest platforms in the world, with over 750 million users, but scale
+        alone does not guarantee profitability. This analysis examines how Spotify creates value, why
+        capturing that value remains challenging, and what comes next.
       </p>
 
       {/* Animated stat cards */}
