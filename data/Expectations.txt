@@ -1,0 +1,97 @@
+IMAGE 1
+
+ACT 1
+The Company
+Who are they? What do they do? What’s their story? Make us care about this company before you start dissecting it. Think origin story, key milestones, leadership, business model, and what makes them interesting.
+
+ACT 2
+The Problem
+What’s the strategic challenge? This is where your external and internal analysis lives — but woven into a narrative, not listed as a checklist. Show us the competitive landscape, the industry dynamics, the financial trends, and the internal capabilities that all point to a real problem (or opportunity) this company needs to address.
+
+ACT 3
+The Evidence
+Prove it. This is where your data, charts, dashboards, financial analysis, validation research, and supporting evidence come together. Interactive charts, embedded visualizations, comparison tables — this is where the website format really shines over a paper.
+
+ACT 4
+The Solution
+What should the company do? Your strategic recommendations, backed by everything you’ve shown us. Include implementation considerations, potential risks, and why this is the right move. Convince us.
+
+
+IMAGE 2
+
+Required Ingredient | What This Means (Not What to Label It)
+
+Company context
+I need to understand who this company is, what they do, how they make money, and why they matter — before you start telling me what’s wrong with them. History, leadership, business model, recent developments.
+
+Industry & competitive dynamics
+You’ve studied the external environment. You understand the competitive forces, market trends, and industry structure. Use Porter’s Five Forces, PESTLE, or whatever frameworks help you think — but present the insights, not the framework labels.
+
+Financial analysis
+Real numbers. Revenue trends, profitability, key metrics over time, comparison to competitors or benchmarks. Interactive charts and dashboards are where the website format earns its keep.
+
+Internal capabilities
+What is this company good at? What are its weaknesses? Use VRIO or any other lens to assess their resources and capabilities — but again, show me the insight, not the acronym.
+
+A clearly defined strategic problem
+This is the heart of your analysis. What is the real challenge or opportunity this company faces? It should emerge naturally from everything above.
+
+Validation & evidence
+This is not optional — it’s the difference between “Trust me bro” and a real strategic recommendation. Your website must show evidence of:
+(1) 3–5 expert interviews with industry professionals, analysts, professors, or alumni;
+(2) 5–8 customer interviews with real users or stakeholders;
+(3) AI-powered analysis of 1000+ online reviews (scraped with Apify or similar tools).
+Include interview transcripts and data analysis in a dedicated appendix or section of your site. If three experts tell you your idea won’t work, listen to them. See the Validation module for detailed guidance.
+
+Strategic recommendations
+What should the company actually do? Be specific. Include implementation considerations, potential risks, and why this is the right move. “They should innovate more” is not a recommendation.
+
+Sources & citations
+Cite your work. Embed links throughout the site or include a references section — either way, give credit where it’s due.
+
+
+IMAGE 3
+
+Dimension | Weight | What I’m Looking For
+
+Strategic Depth | 30%
+Does the analysis go beyond surface-level observations? Are the frameworks used to generate real insights, not just check boxes? Is the problem clearly identified and well-validated? Are the recommendations specific, feasible, and well-supported by evidence?
+
+Narrative & Flow | 25%
+Does the website tell a coherent story from beginning to end? Does it flow like a river, not a broken faucet? Would someone unfamiliar with your company walk away understanding the business, the problem, and the solution?
+
+Design & Creativity | 25%
+Is the website visually impressive and professionally designed? Are data visualizations effective and interactive? Is there clear creative effort and differentiation — or does it look like every other AI-generated site? Consistency in style, color, and typography matters.
+
+Evidence & Data | 20%
+Is the analysis supported by real data? Are financial metrics, market research, and validation evidence presented clearly? Are sources properly cited? Quantity and quality of evidence both matter.
+
+
+IMAGE 4
+
+A-Level Work
+- Tells a story that builds from context to problem to evidence to solution, with each section earning the next
+- Uses frameworks as invisible scaffolding — the insights are front and center, not the framework labels
+- Features interactive charts, dashboards, and data visualizations that actually help make the argument
+- Has a cohesive, professional visual identity — consistent fonts, colors, spacing, and layout throughout
+- Includes real validation: 3–5 expert interviews, 5–8 customer interviews, 1000+ scraped reviews analyzed with AI — all documented with transcripts and data
+- Makes specific, actionable recommendations backed by triangulated evidence from multiple sources
+- Makes you want to keep scrolling
+
+C-Level Work
+- Dumps information into sections with no clear narrative thread — reads like a textbook assignment, not a strategic argument
+- Has sections literally labeled “Porter’s Five Forces” and “SWOT” that list bullet points without connecting them to the company’s actual situation
+- Includes a few static screenshots pasted from Google with no interactivity and no clear connection to the argument
+- Looks like three different people built three different sites and stitched them together the night before
+- Has surface-level validation — a couple of informal conversations and some Googling, but no systematic primary research
+- Offers vague recommendations like “the company should innovate more” or “they should use AI” with no specifics on how, when, or why
+- Makes you want to skim
+
+F-Level Work
+- No discernible structure or argument — just random information scattered across pages with no logical connection
+- Mentions a framework by name but doesn’t actually apply it, or applies it so generically it could describe any company in any industry
+- No data visualizations at all, or includes charts with no labels, no context, and no explanation of what they mean
+- Broken layout, missing images, links that don’t work, text that runs off the page — clearly never tested before submission
+- Zero validation. Recommendations are based entirely on assumptions that nobody tested. Pure “Trust me bro” energy
+- No real recommendations, or recommendations that contradict the analysis, or “recommendations” copy-pasted from ChatGPT with no connection to the company
+- Makes you want to close the tab

@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://spotify-strat-analysis.local/schemas/agent.schema.json",
+  "title": "Shared Agent Definition",
+  "description": "Canonical schema for assistant-generated agents normalized from Claude, Codex, and Gemini.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "description",
+    "source",
+    "version",
+    "status",
+    "instructions",
+    "skills",
+    "tags",
+    "source_meta"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable machine-readable identifier for merge and registry lookup.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable agent name.",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "description": "Short explanation of the agent's purpose.",
+      "minLength": 1
+    },
+    "source": {
+      "type": "string",
+      "description": "Originating assistant system for the normalized record.",
+      "enum": [
+        "claude",
+        "codex",
+        "gemini",
+        "merged"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic or project-defined version string.",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle state of the agent.",
+      "enum": [
+        "draft",
+        "active",
+        "deprecated",
+        "archived"
+      ]
+    },
+    "instructions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "value"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "inline",
+            "file"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "description": "Shared skill identifiers referenced by the agent.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "description": "Search and grouping tags.",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "capabilities": {
+      "type": "array",
+      "description": "Declared capability labels used for routing or discovery.",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "inputs": {
+      "type": "array",
+      "description": "Expected input names or input descriptors.",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "outputs": {
+      "type": "array",
+      "description": "Expected outputs, artifacts, or result types.",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "priority": {
+      "type": "integer",
+      "description": "Optional priority for resolution or display ordering."
+    },
+    "extends": {
+      "type": "array",
+      "description": "Optional parent agent ids this agent builds on.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "source_meta": {
+      "type": "object",
+      "description": "Assistant-specific metadata preserved during normalization.",
+      "additionalProperties": true
+    }
+  }
+}

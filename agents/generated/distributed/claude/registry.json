@@ -1,0 +1,83 @@
+{
+  "assistant": "claude",
+  "count": 7,
+  "agents": [
+    {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "status": "active",
+      "tags": [
+        "analysis",
+        "charts",
+        "data",
+        "evidence"
+      ]
+    },
+    {
+      "id": "financial-analyst",
+      "name": "Financial Analyst",
+      "status": "active",
+      "tags": [
+        "benchmarking",
+        "finance",
+        "metrics",
+        "strategy"
+      ]
+    },
+    {
+      "id": "frontend-developer",
+      "name": "Frontend Developer",
+      "status": "active",
+      "tags": [
+        "frontend",
+        "strategy-site",
+        "ui",
+        "vite"
+      ]
+    },
+    {
+      "id": "narrative-editor",
+      "name": "Narrative Editor",
+      "status": "active",
+      "tags": [
+        "clarity",
+        "editing",
+        "narrative",
+        "presentation"
+      ]
+    },
+    {
+      "id": "recommendation-architect",
+      "name": "Recommendation Architect",
+      "status": "active",
+      "tags": [
+        "implementation",
+        "recommendation",
+        "roadmap",
+        "strategy"
+      ]
+    },
+    {
+      "id": "research-analyst",
+      "name": "Research Analyst",
+      "status": "active",
+      "tags": [
+        "evidence",
+        "market-analysis",
+        "research",
+        "strategy"
+      ]
+    },
+    {
+      "id": "strategy-analyst",
+      "name": "Strategy Analyst",
+      "status": "active",
+      "tags": [
+        "analysis",
+        "problem-framing",
+        "recommendation-support",
+        "strategy"
+      ]
+    }
+  ]
+}

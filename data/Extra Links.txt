@@ -1,0 +1,2 @@
+EXTRA SOURCE LINKS:
+https://finviz.com/quote.ashx?t=SPOT&p=d
