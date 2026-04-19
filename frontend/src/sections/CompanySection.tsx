@@ -362,7 +362,7 @@ export default function CompanySection() {
               background: 'linear-gradient(135deg, #1db954, #0f7a35)',
             }}>
               <img
-                src="/daniel_ek.png"
+                src={`${import.meta.env.BASE_URL}daniel_ek.png`}
                 alt="Daniel Ek"
                 style={{
                   width: 220,

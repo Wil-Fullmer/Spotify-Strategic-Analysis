@@ -84,7 +84,7 @@ function useReveal() {
 const experts = [
   {
     initials: 'EC',
-    photo:    '/evan_craig.png',
+    photo:    `${import.meta.env.BASE_URL}evan_craig.png`,
     name:     'Evan Craig',
     title:    'Music Producer & Artist Mentor',
     org:      'Off Planet Music · Audio Editing & Recording',
@@ -98,7 +98,7 @@ const experts = [
   },
   {
     initials: 'JD',
-    photo:    '/jim_doser.png',
+    photo:    `${import.meta.env.BASE_URL}jim_doser.png`,
     name:     'Jim Doser',
     title:    'Head Audio Engineer & Studio Manager',
     org:      'Complex Studios LA · U. of Wyoming, B.S. Music Theory',
@@ -112,7 +112,7 @@ const experts = [
   },
   {
     initials: 'HL',
-    photo:    '/hannah_lubell.png',
+    photo:    `${import.meta.env.BASE_URL}hannah_lubell.png`,
     name:     'Hannah Lubell',
     title:    'Independent Musician & Cover Artist',
     org:      'Denver, CO',
@@ -126,8 +126,8 @@ const experts = [
   },
   {
     initials: 'JF',
-    photo:    '/joey_farrington.png',
-    photos:   ['/joey_dj1.png', '/joey_dj2.png'],
+    photo:    `${import.meta.env.BASE_URL}joey_farrington.png`,
+    photos:   [`${import.meta.env.BASE_URL}joey_dj1.png`, `${import.meta.env.BASE_URL}joey_dj2.png`],
     primary:  true,
     name:     'Joey Farrington',
     title:    'Music Producer & DJ',
