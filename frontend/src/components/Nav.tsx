@@ -63,7 +63,7 @@ export default function Nav() {
 
       {/* Act links */}
       <nav style={{ display: 'flex', gap: 4, marginLeft: 'auto' }}>
-        {acts.map((act, i) => {
+        {acts.map((act) => {
           const isActive = active === act.href.slice(1)
           return (
             <a
