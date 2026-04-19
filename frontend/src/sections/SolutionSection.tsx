@@ -80,9 +80,8 @@ const ACCENT = '#1db954'
 const RED    = '#f87171'
 const TDIM   = '#8a8a96'
 
-function RecCard({ r, idx, isOpen, onToggle }: {
+function RecCard({ r, isOpen, onToggle }: {
   r: typeof recs[number]
-  idx: number
   isOpen: boolean
   onToggle: () => void
 }) {
@@ -233,7 +232,6 @@ export default function SolutionSection() {
             <RecCard
               key={r.num}
               r={r}
-              idx={i}
               isOpen={openIdx === i}
               onToggle={() => setOpenIdx(openIdx === i ? -1 : i)}
             />
